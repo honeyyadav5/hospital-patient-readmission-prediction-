@@ -29,10 +29,3 @@ Predicts whether a diabetic patient will be readmitted to hospital **within 30 d
 - Diabetes is the main primary diagnosis for patients under 30; circulatory disease takes over after 50
 - Top predictors: number of lab procedures, number of medications, time in hospital, age, number of diagnoses
 
-## How to run
-```bash
-pip install -r ../requirements.txt
-# download diabetic_data.csv from https://archive.ics.uci.edu/dataset/296 into data/
-jupyter notebook readmission_prediction.ipynb
-```
-Charts are saved to `figures/`.
